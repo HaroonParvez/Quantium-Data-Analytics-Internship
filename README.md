@@ -1,5 +1,4 @@
 # Quantium-Data-Analytics-Virtual-Internship
-Data analysis project for the Quantium Virtual Internship on Forage.
 
 Welcome to my internship project repository! This repository contains all the work completed during my remote internship at Quantium as a data analyst. The main focus was to analyze retail store sales data and provide actionable insights through data analytics and visualization. You can find detailed descriptions of the tasks and the code itself in their corresponding files.
 
