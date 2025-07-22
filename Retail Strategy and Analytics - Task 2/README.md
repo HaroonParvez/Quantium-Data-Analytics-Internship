@@ -1,7 +1,7 @@
-# Task 2: Trial vs Control Store Analysis
+# Task 2: Trial Store vs Control Store Analysis
 
 ## Purpose  
-Evaluate the impact of the trial on selected stores by comparing their performance with matched control stores during the trial period.
+Analyze the impact of the trial by comparing trial stores with their matched control stores (needed to be found during this analysis) during the trial period.
 
 ## Data  
 - Source: QVI transaction dataset  
@@ -9,31 +9,30 @@ Evaluate the impact of the trial on selected stores by comparing their performan
 
 ## Methodology  
 - **Control Store Selection:**  
-  Selected control stores based on highest Pearson correlation of store metrics with trial stores.  
+  Control stores were selected based on store metrics correlation or provided mappings.  
 - **Metrics Analyzed:**  
   - Total Sales Revenue  
   - Total Customers (unique loyalty card numbers)  
   - Total Transactions  
-- **Comparisons:**  
-  Calculated metrics for trial and control stores during pre-trial and trial periods, and computed percentage differences.  
+- **Comparison:**  
+  Metrics for trial and control stores calculated during the trial period. Percentage differences computed to assess changes.  
 - **Visualization:**  
-  Bar plots to compare sales and customers across stores and periods.
+  Bar plots created to compare sales and customers between trial and control stores across the trial period. Additional monthly bar plots were used to understand temporal trends.
 
 ## Findings  
-- Significant sales differences observed in trial period for stores 77 and 88, less so for store 86.  
-- Changes in total customers contributed more to sales differences than changes in purchase frequency per customer.  
-- Pre-trial comparisons confirm baseline similarity between trial and control stores.
+- Trial stores 77 and 88 showed significant sales increases compared to their controls during the trial period.  
+- Increase in total customers was the primary driver of sales uplift, rather than purchase frequency per customer.  
+- Trial store 86 showed less significant change, suggesting possible differences in trial execution or customer behavior.
 
 ## Usage  
-- Run provided scripts to reproduce analysis and visualizations.  
-- Modify date ranges or stores list as needed.  
+- Run the provided scripts to reproduce the analysis and generate visualizations.  
+- Visuals can be used to inform stakeholders and support strategic decision-making.  
 
 ## Next Steps  
-- Present results to stakeholders with clear visuals.  
-- Conduct further statistical testing if needed.  
-- Explore targeted marketing based on customer behavior insights.
+- Prepare presentation materials summarizing the insights for the Category Manager.  
+- Investigate trial implementation differences for stores with less impact (e.g., store 86).  
+- Consider further analysis on customer segmentation and transaction patterns.
 
 ---
 
-*For any questions or additional support, please contact the project team.*
-
+*For any questions or support, please contact the analytics team.*
