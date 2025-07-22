@@ -1,38 +1,35 @@
 # Task 2: Trial Store vs Control Store Analysis
 
-## Purpose  
-Analyze the impact of the trial by comparing trial stores with their matched control stores (which needed to be found during this analysis) during the trial period.
+This task investigates the impact of a retail trial by comparing trial stores against their matched control stores during the trial period. The goal is to assess how the trial influenced key store performance metrics and identify drivers of change.
 
-## Data  
+### Data
+
 - Source: QVI transaction dataset  
-- Trial Period: 1 Feb 2019 – 30 Apr 2019  
+- Trial Period: 1 February 2019 to 30 April 2019  
 
-## Methodology  
+### Analysis Approach
+
 - **Control Store Selection:**  
-  Control stores were selected based on store metrics correlation or provided mappings.  
-- **Metrics Analyzed:**  
+  Control stores were identified by evaluating the correlation of store-level metrics or by using predefined store pairings to ensure valid comparisons.
+
+- **Key Metrics:**  
   - Total Sales Revenue  
-  - Total Customers (unique loyalty card numbers)  
+  - Total Customers (count of unique loyalty card numbers)  
   - Total Transactions  
-- **Comparison:**  
-  Metrics for trial and control stores calculated during the trial period. Percentage differences computed to assess changes.  
+
+- **Comparative Analysis:**  
+  These metrics were aggregated for both trial and control stores within the trial period. Percentage differences between trial and control stores were calculated to quantify the trial’s effects.
+
 - **Visualization:**  
-  Bar plots created to compare sales and customers between trial and control stores across the trial period. Additional monthly bar plots were used to understand temporal trends.
+  Bar plots were generated to compare total sales and customer counts between trial and control stores. Monthly bar charts provided insight into temporal trends throughout the trial period.
 
-## Findings  
-- Trial stores 77 and 88 showed significant sales increases compared to their controls during the trial period.  
-- Increase in total customers was the primary driver of sales uplift, rather than purchase frequency per customer.  
-- Trial store 86 showed less significant change, suggesting possible differences in trial execution or customer behavior.
+### Findings
 
-## Usage  
-- Run the provided scripts to reproduce the analysis and generate visualizations.  
-- Visuals can be used to inform stakeholders and support strategic decision-making.  
+- Trial stores 77 and 88 demonstrated statistically significant increases in sales relative to their controls during the trial period.  
+- The primary driver of sales growth was an increase in the number of purchasing customers, rather than higher purchase frequency per customer.  
+- Trial store 86 exhibited limited change, indicating potential differences in trial implementation or customer response.
 
-## Next Steps  
-- Prepare presentation materials summarizing the insights for the Category Manager.  
-- Investigate trial implementation differences for stores with less impact (e.g., store 86).  
-- Consider further analysis on customer segmentation and transaction patterns.
+### Outcome
 
----
+The analysis offers a clear understanding of the trial’s impact on store performance, supporting data-driven recommendations for future strategic planning and operational adjustments.
 
-*For any questions or support, please contact the analytics team.*
