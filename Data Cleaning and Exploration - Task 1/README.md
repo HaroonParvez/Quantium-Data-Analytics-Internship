@@ -1,37 +1,34 @@
-Task 1: Data Cleaning and Exploration
+# Task 1: Data Cleaning and Exploration
+
 This Jupyter Notebook contains the data cleaning and exploratory analysis performed as part of the Quantium Data Analytics Virtual Internship (Task 1).
 
-Overview
+## Overview
+
 The purpose of this task was to clean and explore the provided sales dataset, focusing on customer segments and purchase behaviors across different pack sizes. Key activities included:
 
-Loading and inspecting raw data files.
+- Loading and inspecting raw data files.
+- Handling missing values and data inconsistencies.
+- Summarizing sales figures by customer segment and pack size.
+- Visualizing purchasing trends across different demographic segments.
+- Identifying key customer groups contributing to sales.
 
-Handling missing values and data inconsistencies.
+## Contents
 
-Summarizing sales figures by customer segment and pack size.
+- **Data cleaning:** Preprocessing the dataset to ensure accuracy and consistency.
+- **Exploratory Data Analysis (EDA):** Statistical summaries and visualizations to uncover patterns.
+- **Summary insights:** Preliminary conclusions drawn from the data.
 
-Visualizing purchasing trends across different demographic segments.
+## Files
 
-Identifying key customer groups contributing to sales.
+- `data_cleaning_and_exploration.ipynb`: Jupyter Notebook containing the full analysis workflow.
+- `datasets/`: Folder containing raw datasets used in the analysis.
 
-Contents
-Data cleaning: Preprocessing the dataset to ensure accuracy and consistency.
+## How to run
 
-Exploratory Data Analysis (EDA): Statistical summaries and visualizations to uncover patterns.
+1. Clone the repository.
+2. Open the notebook in Jupyter or any compatible environment.
+3. Run the notebook cells sequentially to reproduce the analysis.
 
-Summary insights: Preliminary conclusions drawn from the data.
+## Next Steps
 
-Files
-data_cleaning_and_exploration.ipynb: Jupyter Notebook containing the full analysis workflow.
-
-datasets/: Folder containing raw datasets used in the analysis.
-
-How to run
-Clone the repository.
-
-Open the notebook in Jupyter or any compatible environment.
-
-Run the notebook cells sequentially to reproduce the analysis.
-
-Next Steps
 This analysis provides a foundation for targeted marketing and further segmentation tasks in subsequent project stages.
