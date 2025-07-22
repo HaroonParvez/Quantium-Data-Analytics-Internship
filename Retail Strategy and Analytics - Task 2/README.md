@@ -6,7 +6,6 @@ Evaluate the impact of the trial on selected stores by comparing their performan
 ## Data  
 - Source: QVI transaction dataset  
 - Trial Period: 1 Feb 2019 – 30 Apr 2019  
-- Pre-Trial Period (baseline): 1 Nov 2018 – 31 Jan 2019  
 
 ## Methodology  
 - **Control Store Selection:**  
