@@ -1,7 +1,7 @@
 # Task 2: Trial Store vs Control Store Analysis
 
 ## Purpose  
-Analyze the impact of the trial by comparing trial stores with their matched control stores (needed to be found during this analysis) during the trial period.
+Analyze the impact of the trial by comparing trial stores with their matched control stores (which needed to be found during this analysis) during the trial period.
 
 ## Data  
 - Source: QVI transaction dataset  
