@@ -1,22 +1,35 @@
-
 # Task 1: Data Cleaning and Exploration
 
-This task involved preparing the raw retail transaction dataset for analysis by performing comprehensive data cleaning and exploratory data analysis (EDA).
+This task focuses on preparing the raw retail transaction dataset for further analysis through comprehensive data cleaning and exploratory data analysis (EDA). The objective is to ensure the dataset is accurate, consistent, and well-understood to support meaningful insights in subsequent tasks.
 
-### Key Activities:
+### Data Cleaning
 
-- **Data Cleaning:**  
-  - Identified and handled missing or inconsistent values.  
-  - Corrected data types and standardized formats (e.g., dates).  
-  - Removed or corrected erroneous entries to ensure data quality.
+- **Handling Missing Values:**  
+  Missing or null entries across critical variables such as sales amounts, transaction dates, and customer IDs were identified. Depending on context, missing data was either imputed, removed, or flagged to maintain dataset integrity.
 
-- **Exploratory Data Analysis:**  
-  - Examined key variables such as sales, transactions, and customer counts.  
-  - Visualized distributions and trends to understand the dataset structure.  
-  - Investigated relationships between features to guide further analysis.
+- **Data Type Corrections:**  
+  Columns such as transaction dates were converted to proper datetime formats, and numerical fields like sales and transaction counts were ensured to have the correct data types for accurate computations.
 
-### Purpose:
+- **Removing Duplicates and Erroneous Entries:**  
+  Duplicate transactions and anomalous data points (e.g., negative sales or impossible transaction counts) were detected and removed to prevent skewed analysis.
 
-The goal was to create a reliable and insightful dataset that could be confidently used in subsequent analytics tasks, minimizing bias and errors.
+- **Standardization:**  
+  Consistent formatting was applied across categorical variables like store numbers and customer loyalty IDs.
 
----
+### Exploratory Data Analysis (EDA)
+
+- **Summary Statistics:**  
+  Descriptive statistics (mean, median, range) were generated for key metrics including total sales, transaction counts, and unique customer numbers.
+
+- **Distribution Analysis:**  
+  Visualizations of sales and transaction distributions helped identify trends, outliers, and skewness in the data.
+
+- **Temporal Analysis:**  
+  Time-based patterns in sales and customer activity were investigated to understand seasonality and peak periods.
+
+- **Feature Relationships:**  
+  Correlations and relationships between variables (e.g., sales vs. transactions, customers vs. transactions) were explored to inform the focus of later analyses.
+
+### Outcome
+
+The data cleaning and exploration task established a solid foundation for reliable analysis, reducing the risk of misleading conclusions and providing clear insights into the retail environment.
