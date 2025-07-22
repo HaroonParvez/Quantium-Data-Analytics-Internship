@@ -7,51 +7,25 @@ Welcome to my internship project repository! This repository contains all the wo
 
 ## Project Overview
 
-The objective of this internship was to analyze sales and customer transaction data from multiple retail stores during a specified trial period. The aim was to identify any significant differences in store performance metrics between trial stores and control stores, and provide recommendations to inform strategic planning.
+The internship project was divided into three main tasks:
 
-Key highlights:
-- Analysis focused primarily on the **trial period** (Feb 2019 – Apr 2019).
-- Compared total sales revenue and customer counts between trial and control stores.
-- Investigated drivers of change: whether increased sales were due to more customers or increased transactions per customer.
-- Generated clear visualizations to support insights.
-- Delivered final reports with actionable recommendations.
+- **Task 1: Data Cleaning and Exploration**  
+  This phase involved thorough cleaning and preprocessing of the raw retail transaction data. Key steps included handling missing values, correcting data inconsistencies, and transforming variables to suitable formats. Additionally, exploratory data analysis was performed to uncover initial patterns, distributions, and insights, setting the foundation for the subsequent analytical tasks.
 
----
+- **Task 2: Retail Analytics and Strategy**  
+  The core analytics task focused on comparing trial stores with matched control stores over the trial period. This involved calculating key metrics such as total sales and total customers, identifying significant differences, and determining the drivers behind sales performance changes. The analysis provided actionable insights into customer behavior and store performance, informing strategic recommendations.
 
-## Repository Structure
-
-- `data/` — Data files (if included or sample data).
-- `notebooks/` — Jupyter notebooks containing exploratory data analysis and visualizations.
-- `scripts/` — Python scripts implementing data processing, analysis, and plotting.
-- `reports/` — Final reports, presentation slides, and exported charts.
-- `README.md` — This file.
+- **Task 3: Presentation Report**  
+  The final task synthesized the analytical findings into a clear and compelling PowerPoint presentation. This report included concise summaries, visualizations consistent with best practices, and strategic recommendations aimed at supporting the client’s planning for the upcoming half year. The presentation was structured to communicate complex insights effectively to a non-technical audience.
 
 ---
 
-## Key Tasks
+## Key Outcomes
 
-### Task 1: Store Metrics Calculation
-- Calculated total sales, number of customers, and total transactions for each store during the trial period.
-
-### Task 2: Trial vs Control Store Comparison
-- Compared trial stores against their matched control stores on sales and customer metrics.
-- Calculated percentage differences and evaluated performance impact.
-
-### Task 3: Visualizations
-- Created bar charts showing comparisons of sales and customer counts by store.
-- Visualized monthly trends during the trial period.
-
-### Task 4: Insights and Recommendations
-- Interpreted findings to determine drivers of sales changes.
-- Summarized key takeaways for business stakeholders.
-- Prepared final report and presentation slides.
+- Successfully cleaned and prepared the dataset for reliable analysis.  
+- Identified statistically significant improvements in sales for trial stores during the trial period.  
+- Determined the extent to which sales uplift was driven by increased customer counts versus changes in purchasing frequency.  
+- Delivered a polished, client-ready report that communicates insights clearly and supports data-driven decision making.
 
 ---
-
-## How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/your-internship-repo.git
-   cd your-internship-repo
 
